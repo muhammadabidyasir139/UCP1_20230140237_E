@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f9ff;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 700px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* Header */
+header {
+  background-color: #fff;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 150px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.search-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Contact Section */
+.contact-section {
+  padding: 60px 20px;
+  background-color: #fff;
+}
+
+.section-title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007bff;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.contact-form label {
+  font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select {
+  padding: 12px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.submit-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* WhatsApp Button */
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+.whatsapp-button a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #25d366;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+}
