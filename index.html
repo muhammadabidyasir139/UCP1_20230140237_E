@@ -1,172 +1,343 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home | Privat Learn</title>
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-   <!-- Modal -->
-  <div id="popupModal" class="modal">
-    <div class="modal-content">
-      <span class="close-btn" onclick="closeModal()">&times;</span>
-      <img src="promo-image.jpg" alt="Promo Image" class="promo-image">
-      <h2>Promo Spesial!</h2>
-      <p>Daftar sekarang dan dapatkan diskon 20% untuk semua program coaching kami!</p>
-      <button class="cta-button">Daftar Sekarang</button>
-    </div>
-  </div>
-  
-    <header>
-        <div class="container">
-            <img src="" alt="">
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </header>
+    <title>Space Dynamic - SEO Class</title>
 
-    <!-- Hero -->
-     <section>
-        <div class="container">
-            <div class="hero-content">
-                <h1>GLOBY</h1>
-        <p>#1 Coaching for International Competition</p>
-        <div class="tag">#BeBorderless</div>
-        <button class="cta-button">Explore Now</button>
-      </div>
-      <div class="hero-image">
-        <img src="img/Peran Krusial Bank di Sektor Pendidikan.jpeg" alt="Earth Illustration">
-      </div>
-      <div class="product-card">
-        <img src="img/Peran Krusial Bank di Sektor Pendidikan.jpeg" alt="Product Image">
-        <h2>MUN School (Group Learning)</h2>
-        <p>4 Meet with curriculum:</p>
-        <ul>
-          <li>Dasar-dasar Prosedur MUN</li>
-          <li>Persiapan MUN & Position Paper</li>
-          <li>MUN Simulation</li>
-          <li>Working Paper & Draft Resolution</li>
-        </ul>
-        <p>Rp130.000</p>
-        <button class="apply-button">Apply Now</button>
-        <div class="carousel-indicators">
-          <span class="indicator active"></span>
-          <span class="indicator"></span>
-          <span class="indicator"></span>
-        </div>
-      </div>
-    </div>
-  </section>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-   <!-- Achievements Section -->
-  <section class="achievements">
-    <div class="container">
-      <h2 class="section-title">Globy Achievement</h2>
-      <div class="achievement-grid">
-        <!-- Card 1 -->
-        <div class="achievement-card">
-          <img src="img/award.png" alt="Award Icon" class="icon">
-          <h3>500+</h3>
-          <p>International awards have been received by our mentees</p>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="achievement-card">
-          <img src="img/award.png" alt="Mentee Icon" class="icon">
-          <h3>3K+</h3>
-          <p>Mentee</p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="achievement-card">
-          <img src="img/award.png" alt="Partnership Icon" class="icon">
-          <h3>75+</h3>
-          <p>Partnership</p>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="achievement-card">
-          <img src="img/award.png" alt="Session Icon" class="icon">
-          <h3>19K+</h3>
-          <p>Session</p>
-        </div>
-
-        <!-- Card 5 -->
-        <div class="achievement-card">
-          <img src="img/award.png" alt="Countries Icon" class="icon">
-          <h3>17+</h3>
-          <p>Countries</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-   <!-- Programs Section -->
-  <section class="programs">
-    <div class="container">
-      <h2 class="section-title">Our Original Programs</h2>
-      <div class="program-grid">
-        <!-- Card 1 -->
-        <div class="program-card">
-          <img src="img/Public-Speaking-School-Group-Learning-1-300x300.png" alt="Public Speaking School" class="card-image">
-          <h3>Public Speaking School (Group Learning)</h3>
-          <p>Rp130.000</p>
-        </div>
-
-        <!-- Card 2 -->
-        <div class="program-card">
-          <img src="img/Public-Speaking-School-Group-Learning-1-300x300.png" alt="World Scholar Cup" class="card-image">
-          <h3>World Scholar Cup (WSC) – Private Coaching</h3>
-          <p>Rp225.000</p>
-        </div>
-
-        <!-- Card 3 -->
-        <div class="program-card">
-          <img src="img/Public-Speaking-School-Group-Learning-1-300x300.png" alt="Public Speaking Private Coaching" class="card-image">
-          <h3>Public Speaking – Private Coaching</h3>
-          <p>Rp225.000</p>
-        </div>
-
-        <!-- Card 4 -->
-        <div class="program-card">
-          <img src="img/Public-Speaking-School-Group-Learning-1-300x300.png" alt="Speech Competition Private Coaching" class="card-image">
-          <h3>Speech Competition – Private Coaching</h3>
-          <p>Rp225.000</p>
-        </div>
-      </div>
-      <button class="cta-button">Read More</button>
-    </div>
-  </section>
-
-  <!-- Footer -->
-  <footer>
-    <div class="container">
-      <p>© 2024 GLOBY. All Rights Reserved.</p>
-      <div class="social-icons">
-        <a href="#"><i class="fab fa-instagram"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-      </div>
-    </div>
-  </footer>
-
-  <!-- WhatsApp Button -->
-  <div class="whatsapp-button">
-    <a href="https://wa.me/your-whatsapp-number" target="_blank">
-      <i class="fab fa-whatsapp"></i>
-    </a>
-  </div>
-
-  <script src="script.js"></script>
-            </div>
-        </div>
-     </section>
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css" />
+    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css" />
+    <link rel="stylesheet" href="assets/css/animated.css" />
+    <link rel="stylesheet" href="assets/css/owl.css" />
+    <!--
     
-</body>
+TemplateMo 562 Space Dynamic
+
+https://templatemo.com/tm-562-space-dynamic
+
+-->
+  </head>
+
+  <body>
+    <!-- ***** Preloader Start ***** -->
+    <div id="js-preloader" class="js-preloader">
+      <div class="preloader-inner">
+        <span class="dot"></span>
+        <div class="dots">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+    <!-- ***** Preloader End ***** -->
+
+    <!-- ***** Header Area Start ***** -->
+    <header
+      class="header-area header-sticky wow slideInDown"
+      data-wow-duration="0.75s"
+      data-wow-delay="0s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="main-nav">
+              <!-- ***** Logo Start ***** -->
+              <a href="index.html" class="logo">
+                <h4>Spac<span>Dyna</span></h4>
+              </a>
+              <!-- ***** Logo End ***** -->
+              <!-- ***** Menu Start ***** -->
+              <ul class="nav">
+                <li class="scroll-to-section">
+                  <a href="index.html" class="active">Home</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="about.html">About Us</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="feature.html">Feature</a>
+                </li>
+                <li class="scroll-to-section">
+                  <a href="contact.html">Message Us</a>
+                </li>
+                <li class="scroll-to-section">
+                  <div class="main-red-button">
+                    <a href="contact.html">Contact Now</a>
+                  </div>
+                </li>
+              </ul>
+              <a class="menu-trigger">
+                <span>Menu</span>
+              </a>
+              <!-- ***** Menu End ***** -->
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <div
+      class="main-banner wow fadeIn"
+      id="top"
+      data-wow-duration="1s"
+      data-wow-delay="0.5s"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div
+                  class="left-content header-text wow fadeInLeft"
+                  data-wow-duration="1s"
+                  data-wow-delay="1s"
+                >
+                  <h6>Welcome to Space Dynamic</h6>
+                  <h2>
+                    We Make <em>Digital Ideas</em> &amp;
+                    <span>Learn</span>Digital Marketing
+                  </h2>
+                  <p>
+                    Space Dynamic is a professional is a course for you which
+                    will to learn a digital marketing
+                    <!-- <a
+                      rel="nofollow"
+                      href="https://templatemo.com/page/1"
+                      target="_parent"
+                      >TemplateMo</a
+                    >. -->
+                  </p>
+                  <form id="search" action="#" method="GET">
+                    <fieldset>
+                      <input
+                        type="address"
+                        name="address"
+                        class="email"
+                        placeholder="Your website URL..."
+                        autocomplete="on"
+                        required
+                      />
+                    </fieldset>
+                    <fieldset>
+                      <button type="submit" class="main-button">
+                        Search what you want
+                      </button>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div
+                  class="right-image wow fadeInRight"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.5s"
+                >
+                  <img
+                    src="assets/images/banner-right-image.png"
+                    alt="team meeting"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="services" class="our-services section">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-6 align-self-center wow fadeInLeft"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+          >
+            <div class="left-image">
+              <img src="assets/images/services-left-image.png" alt="" />
+            </div>
+          </div>
+          <div
+            class="col-lg-6 wow fadeInRight"
+            data-wow-duration="1s"
+            data-wow-delay="0.2s"
+          >
+            <div class="section-heading">
+              <h2>
+                Grow your website with our <em>SEO</em> service &amp;
+                <span>Project</span> Ideas
+              </h2>
+              <p>
+                Space Dynamic HTML5 template is free to use for your website
+                projects. However, you are not permitted to redistribute the
+                template ZIP file on any CSS template collection websites.
+                Please contact us for more information. Thank you for your kind
+                cooperation.
+              </p>
+            </div>
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="first-bar progress-skill-bar">
+                  <h4>Website Analysis</h4>
+                  <span>84%</span>
+                  <div class="filled-bar"></div>
+                  <div class="full-bar"></div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="second-bar progress-skill-bar">
+                  <h4>SEO Reports</h4>
+                  <span>88%</span>
+                  <div class="filled-bar"></div>
+                  <div class="full-bar"></div>
+                </div>
+              </div>
+              <div class="col-lg-12">
+                <div class="third-bar progress-skill-bar">
+                  <h4>Page Optimizations</h4>
+                  <span>94%</span>
+                  <div class="filled-bar"></div>
+                  <div class="full-bar"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="our-portfolio section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <div
+              class="section-heading wow bounceIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <h2>See What Will we <em>You Get</em> &amp; learn</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <a href="#">
+              <div
+                class="item wow bounceInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.3s"
+              >
+                <div class="hidden-content">
+                  <h4>SEO Analysis</h4>
+                  <p>
+                    learn SEO for making your product can access above all the
+                    world.
+                  </p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/images/portfolio-image.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#">
+              <div
+                class="item wow bounceInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.4s"
+              >
+                <div class="hidden-content">
+                  <h4>Website Reporting</h4>
+                  <p>making website for report using real time data</p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/images/portfolio-image.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#">
+              <div
+                class="item wow bounceInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.5s"
+              >
+                <div class="hidden-content">
+                  <h4>Data reporting</h4>
+                  <p>
+                    you will learn about reporting data for making a realtime
+                    and real data
+                  </p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/images/portfolio-image.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <a href="#">
+              <div
+                class="item wow bounceInUp"
+                data-wow-duration="1s"
+                data-wow-delay="0.6s"
+              >
+                <div class="hidden-content">
+                  <h4>Data Analysis</h4>
+                  <p>you will learn data analyst using python</p>
+                </div>
+                <div class="showed-content">
+                  <img src="assets/images/portfolio-image.png" alt="" />
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div
+            class="col-lg-12 wow fadeIn"
+            data-wow-duration="1s"
+            data-wow-delay="0.25s"
+          >
+            <p>
+              © Copyright 2021 Dynamic.
+
+              <br />Design:
+              <a rel="nofollow" href="https://templatemo.com">Dynamic</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Scripts -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/animation.js"></script>
+    <script src="assets/js/imagesloaded.js"></script>
+    <script src="assets/js/templatemo-custom.js"></script>
+  </body>
 </html>
